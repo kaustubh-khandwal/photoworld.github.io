@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.im {
+    height: 400px;
+    width: 400px;
+}
+
+.container {
+    display:grid;
+    width: 1300px;
+    height: 950px;
+    margin: 10px;
+    background-color: aqua;
+    grid-template-columns:repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 5px;
+    
+}
